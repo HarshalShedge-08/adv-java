@@ -9,6 +9,8 @@
 // let d=fun3();
 // console.log("return function :"+d);
 
+// ======================================================================================================
+
 // 4-call back function 
 
 // function add(a,b){
@@ -33,6 +35,8 @@
 
 // calculator(10,10,dvd)
 
+// ======================================================================================================
+
 // 5-IIFE (Imidiate invoked function expression )
 
 // (
@@ -40,6 +44,7 @@
 //     console.log("I am immidiate invoked function expression");
 //     }()
 // )
+// ======================================================================================================
 
 // 6-Higher order function 
 // (when one function return another function then it is called higher order function)
