@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get-set</title>
+
+    <link rel="stylesheet" href="../bootstrap.min.css">
+
+    <style>
+        a {
+            font-size: 40px;
+            /* text-decoration: none; */
+            color: black;
+            font-weight: bold;
+            padding-left: 20px;
+        }
+
+        a:hover {
+            color: darkgray;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <div class="" id="Container">
+
+        <div id="header" title="this is header" style="color: darkred;">
+
+            <h1 id="head" title="this is hading one" style="background-color:yellow">DOM</h1>
+
+            <h2 id="head-2" title="this is heading two" style="color:blue">(Document Obj Modal)</h2>
+
+        </div>
+
+        <img src="https://c4.wallpaperflare.com/wallpaper/72/624/1004/anime-one-piece-zoro-roronoa-wallpaper-preview.jpg"
+            width="20%" alt="">
+
+        <img src="https://c4.wallpaperflare.com/wallpaper/938/605/258/wenjuinn-png-bubble-gum-spacesuit-hd-wallpaper-preview.jpg"
+            width="22%" alt="">
+
+        <br>
+        <br>
+
+        <a href="">home</a>
+        <a href="">about</a>
+        <a href="">contact</a>
+        <a href="">blog</a>
+        <a href="">service</a>
+
+    </div>
+
+    <br>
+    <br>
+
+    <footer id="footer">
+        <button class="btn btn-outline bg-danger" onclick="goBack()">Back</button>
+        <button class="btn btn-outline bg-warning" onclick="goForward()">Forward</button>
+        <button class="btn btn-outline bg-info" onclick="go()">Go</button>
+
+        <script>
+
+            function goBack() {
+                history.back()
+            }
+
+            function goForward() {
+                history.forward()
+            }
+
+            function go() {
+                history.go(2)
+            }
+
+        </script>
+
+    </footer>
+
+    <script src="get-set.js"></script>
+
+
+
+</body>
+
+</html>

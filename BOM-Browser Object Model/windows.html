@@ -1,0 +1,89 @@
+<!-- windows-there are 7 types
+ 1-alert
+ 2-confirm
+ 3-prompt
+ 4-open
+ 5-close
+ 6-set timeout
+ 7-set interval -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <!-- 1-alert -->
+
+        <!-- <script>
+
+                // alert('Hello i am alert box')
+
+        </script> -->
+
+        <!-- 2 - confirm -->
+
+        <!-- <script>
+
+                let res;
+                res = confirm('see your result here')
+
+                if (res) {
+                        document.write('<h1>Congrats You are pass</h1>');
+                }
+                else {
+                        alert('request cancel');
+                }
+
+        </script> -->
+
+        <!-- 4,5-open / close -->
+
+        <!-- <script>
+
+                let col;
+                col = confirm('Enter for website')
+
+                if(col){
+                        open("https://youtube.com/")
+                }
+                else{
+                        close(alert('you cancel the process'))
+                }
+
+        </script> -->
+
+        <!-- 6-set timeout -->
+
+        <script>
+
+                function fun() {
+                        document.write('Full Name Is :- Sai Patil')
+                }
+                
+
+                setTimeout(
+                        () => {
+                        document.write('Congrats You are Pass <br>')
+                        },
+                        5000
+                )
+
+                setTimeout(
+                        ()=>{document.write('<h6>loading...</h6>')},3000
+                )
+
+                fun()
+                document.write('<br> <br> Your Result Is...')
+ 
+        </script>
+
+</body>
+
+</html>

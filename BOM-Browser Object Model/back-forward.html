@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forward Back Go</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="p-5">
+
+    <!-- In this we are going to see __On Click__ method  
+    --Back 
+    --Forward
+    --Go -->
+
+    <button class="btn btn-outline bg-danger"  onclick="goBack()">Back</button>
+    <button class="btn btn-outline bg-warning"  onclick="goForward()">Forward</button>
+    <button class="btn btn-outline bg-info"  onclick="go()">Go</button>
+
+    <script>
+
+        function goBack() {
+            history.back()
+        }
+
+        function goForward(){
+            history.forward()
+        }
+
+        function go(){
+            history.go(2)
+        }
+
+    </script>
+
+
+</body>
+
+</html>
