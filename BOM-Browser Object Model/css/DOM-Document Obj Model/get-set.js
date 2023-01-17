@@ -39,7 +39,7 @@
 
 // -----set method----- 
 
-let doc;
+// let doc;
 
 // innerText
 // doc=document.getElementById("footer").innerText = "hello this is footer";
@@ -61,4 +61,31 @@ let doc;
 // doc=document.getElementById('head').removeAttribute("style")
 // doc = document.getElementById('head');
 
-console.log(doc)
+// console.log(doc)
+
+let h3 = document.createElement('h3')
+
+
+let text = document.createTextNode('heelo')
+// console.log(text);
+
+h3.appendChild(text);
+
+console.log(h3);
+
+
+let list = document.getElementById('mylist');
+console.log(list);
+
+let elem = document.createElement('li')
+
+
+
+let txt = document.createTextNode("black");
+
+elem.appendChild(txt)
+console.log(elem);
+
+list.appendChild(elem)
+
+
