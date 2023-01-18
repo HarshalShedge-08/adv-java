@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On-click</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <button class="btn btn-outline-dark bg-transparent text-dark mt-5" onclick="fun()" ondblclick="fun2()"
+            oncontextmenu="fun3()" onmouseenter="fun4()" onmouseout="fun5()">Click</button>
+
+        <button class="btn btn-outline-dark bg-transparent text-dark mt-5" id="btn-2">Here</button>
+
+    </div>
+
+    <script>
+
+        function fun() {
+
+            let b = document.body.style.backgroundColor = "red";
+
+        }
+
+        function fun2() {
+
+            let b1 = document.body.style.backgroundColor = "green";
+
+        }
+
+        function fun3() {
+
+            let b1 = document.body.style.backgroundColor = "blue";
+
+        }
+
+        function fun4() {
+
+            let b1 = document.body.style.backgroundColor = "yellow";
+
+        }
+
+        function fun5() {
+
+            let b1 = document.body.style.backgroundColor = "black";
+
+        }
+
+        function fun6(){
+
+            let b2 = document.body.style.backgroundColor = "gray";
+
+        }
+
+        let b2=document.getElementById('btn-2').addEventListener('click',fun6)
+
+    </script>
+
+
+
+</body>
+
+</html>
