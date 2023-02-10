@@ -11,5 +11,5 @@ class employee{
     }
 }
 
-let emp1=new employee()
-emp1.showData()
+// let emp1=new employee()
+// emp1.showData()

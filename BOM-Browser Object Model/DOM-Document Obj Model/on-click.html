@@ -43,7 +43,7 @@
 
         function fun4() {
 
-            let b1 = document.body.style.backgroundColor = "yellow";
+            let b1 = document.body.style.backgroundColor = "gold";
 
         }
 
@@ -53,13 +53,34 @@
 
         }
 
-        function fun6(){
+        function fun6() {
 
             let b2 = document.body.style.backgroundColor = "gray";
 
         }
 
-        let b2=document.getElementById('btn-2').addEventListener('click',fun6)
+        function fun7() {
+            let b3 = document.body.style.backgroundColor = "pink";
+        }
+
+        function fun8() {
+            let b3 = document.body.style.backgroundColor = "indigo";
+        }
+
+        function fun9() {
+            let b3 = document.body.style.backgroundColor = "brown";
+        }
+
+        let b2 = document.getElementById('btn-2').addEventListener('dblclick', fun6);
+
+        b2 = document.getElementById('btn-2').addEventListener('click', fun7);
+
+        b2 = document.getElementById('btn-2').addEventListener('mouseenter', fun8);
+        
+        b2 = document.getElementById('btn-2').addEventListener('mouseout', fun9);
+
+
+
 
     </script>
 
