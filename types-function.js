@@ -12,6 +12,7 @@
 // ======================================================================================================
 
 // 4-call back function 
+//(it is function passed into another function as argument)
 
 // function add(a,b){
 //     console.log("Addition is :- ",a+b);
